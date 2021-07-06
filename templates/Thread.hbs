@@ -1,0 +1,55 @@
+<style type="text/css">
+    * {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+            "Helvetica Neue", sans-serif;
+    }
+    body {
+        margin: 5% auto;
+    }
+    #title {
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul li {
+        margin: 20px;
+    }
+    .tweetContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .tweetContainer * {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<html>
+
+<body>
+    <h1 id="title">PG STUDENT</h1>
+    <ul>
+        {{!-- uses the twit mock object from mock API --}}
+        
+        <li>
+          <div class="tweetContainer">
+                    <h2><i>{{thread.student.basicdetails.bdetails}}</i></h2>
+                    <div>
+                        <p>Full Name: {{thread.student.basicdetails.name}}</p>
+                        <p>First Name: {{thread.student.basicdetails.fname}}</p>
+                        <p>Middle Name: {{thread.student.basicdetails.mname}}</p>
+                        <p>Last Name: {{thread.student.basicdetails.lname}}</p>
+                        <p>Student_regno: {{thread.student.basicdetails.sreg}}</p>
+                        <p>Gender: {{thread.student.basicdetails.gender}}</p>
+                        <p>Date_of_Birth: {{thread.student.basicdetails.dob}}</p>
+                        <p>Profile_pic: {{thread.student.basicdetails.pic}}</p>
+                    </div>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>

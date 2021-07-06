@@ -1,0 +1,15 @@
+{
+	"student":{
+		"basicdetails":{
+			"bdetails":"basic details",
+		    "name": "Addala Harshad",
+	        "fname":"emo",
+	        "mname":"emo",
+	        "lname":"emo",
+	        "sreg":"121810304008",
+	        "gender":"male",
+	        "dob": "29/04/2001",
+	        "pic":"uploded"
+		}
+	}
+}
