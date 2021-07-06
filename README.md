@@ -3,8 +3,11 @@
 #Instruction To Run 
 
 1.Download the files
+
 2.Open command prompt
+
 3.Cd #choose your path
+
 4.RUN:- node index.js
 
 OUTPUT:-
